@@ -4,6 +4,10 @@
         font-family: "Geist Mono", monospace;
         background-attachment: fixed;
         background-image: url("images/space.jpg");
+        margin: 0;                 /* Removes default browser margins */
+        min-height: 100vh;         /* Takes up the full height of the viewport */
+        display: grid;             /* Activates Grid layout */
+        place-items: center;       /* Centers horizontally AND vertically */
     }
     h1 {
         font-size: 5em;
@@ -65,4 +69,12 @@
         font-weight: bold;
         font-size: 6em;
         color: rgb(255, 55, 52);
+    }
+    #button {
+        font-size: 1em;
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: rgb(195, 255, 30);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
     }

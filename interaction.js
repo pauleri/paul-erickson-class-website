@@ -3,7 +3,7 @@ const message = document.querySelector("#message");
 const changeBackgroundButton = document.querySelector("#Change background");
 
 function changeMessage() {
-    message.textContent = "Button clicked!";
+    message.textContent = "Vibe Checked :)";
 }
 function changeBackground() {
     document.body.style.backgroundImage = "url('images/spooky.png')";
